@@ -3,7 +3,7 @@ const nombres = [
     "Miguel", "Paula", "Ricardo", "Valeria", "Javier", "Camila", "Alejandro", "Martina", "Andres", "Beatriz"
 ];
 
-// Variable con el nombre a buscar
+// Variable constante de la busqueda 'Marcos'
 const nombreBuscado = "Marcos";
 
 // Función para buscar el nombre en la lista
@@ -24,5 +24,5 @@ function buscarNombre(lista, nombre) {
     console.log("La lista contiene: " + cantidadNombres + " nombres");
 }
 
-// Llamar a la función con los parámetros
+// Llamar a la función de la busqueda del Nombre en la lista nombres*
 buscarNombre(nombres, nombreBuscado);
